@@ -1,3 +1,7 @@
+/* Import Bootstrap styles */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
 .table-container {
   margin-top: 20px;
 }
@@ -6,21 +10,20 @@
   margin-top: 20px;
 }
 
-/* Customize the table styles */
 .table {
   font-size: 16px;
 }
 
 .table thead th {
-  background-color: #4d92d6;
+  background-color: #343a40;
   color: white;
 }
 
 .table tbody td {
-  background-color: #e7e8e9;
+  background-color: #f8f9fa;
 }
 
-/* Customize the pagination styles */
+
 .pagination {
   justify-content: center;
 }
